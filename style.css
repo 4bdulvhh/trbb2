@@ -1,0 +1,212 @@
+.container{
+    width: 85%;
+    margin: auto;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+header a{
+    padding: 0 5px;
+}
+header div{margin-top: 8px;}
+.logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+.nvbr{background-color: #ca1016;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    
+}
+nav a{
+    display: inline-block;
+    margin:15px 10px;
+    color: white;
+}
+.yeniElan{
+    height: 40px;
+    padding: 0 10px;
+    color: white;
+    background-color: #85c01f;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.card {
+    object-fit: cover;
+    overflow: hidden;
+}
+.skl img{width: 100%;
+height: 100%;display: block;margin: auto;}
+.card{
+    width: 20%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    margin: 20px;
+    height:260px;
+    position: relative;
+}
+
+.skl{
+    
+    height: 150px;
+}
+.secil{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 20;
+    color: rgba(255, 255, 255, 0.626);
+
+}
+.yazi{padding: 0 10px 10px;
+    height: 100px;
+ }
+.card h3{
+    font-weight: 700;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.barter{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.ysl{color:  rgb(118, 200, 28);}
+.sari{color:#f5a623}
+.markaa{
+    height: 37px;
+    margin: 0;
+    
+    border: none;
+    z-index: 20;
+    position: absolute;
+    width: 200px;
+}
+.marka{
+    margin :0;
+    padding: 0;
+    border: none;
+    width: 235px;
+    z-index: -1;
+    height: 37px;
+}
+.group{
+    border: 1px solid #dfe3e9;  
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn2{border-left: 1px solid #dfe3e9;  
+    border-right: 1px solid #dfe3e9;   
+height: 47px;
+width: 70px;
+margin: 0;
+padding: 0;
+}
+.btn1{
+    width: 90px;
+    height: 47px;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.group1{
+border: 1px solid #dfe3e9;  
+width: 245px;
+height: 47px;
+
+border-radius: 5px;
+
+;}
+.filter{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#min,#max{
+    width: 113px;
+    border: none;
+    margin: 0 ;
+    padding: 0
+    ;height: 47px;
+}
+#min{margin: 0 0 0 5px;border-right: 1px solid #dfe3e9; }
+.val{
+    display: flex;
+}
+#kredit,#barter{
+    width: 68px;
+    border: 1px solid #dfe3e9; 
+    border-radius: 5px;
+}
+.val select{
+    border: 1px solid #dfe3e9; 
+    border-radius: 5px;
+}
+#ilmin,#ilmax{
+    width: 48%;
+    border: none;
+    margin-top: 3px;
+}
+#ilmin{border-right: 1px solid #dfe3e9; }
+.secilmis{
+    border: 1px solid #ca1016 !important;
+    color: #ca1016;
+    background-color: #ffe6e5;
+}
+.qirmizi{color: red;}
+.secilmis1{color: white;background-color:#ca1016 ;border: 1px solid #ca1016 !important;}
+.hvr{
+    color: #8d94ad;
+}
+.hvr:hover{
+    color: #ca1016;
+}
+.btn3{
+    height: 47px;
+    width: 74px;
+    border-radius: 0 5px 5px 0;
+}
+.hvr2:hover{color: #f5cecd;}
+.eht{
+    z-index: 99999;
+    border-radius: 7px;
+    box-shadow: 3px 10px 10px rgb(39, 38, 38);
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    left:40%;
+    display: none;
+    background: white;
+    top: 80px;
+
+}
+.container{position: relative;}
+#hvr:hover .eht{
+    display: inherit;
+}
+.icare{  z-index: 99999;
+    border-radius: 7px;
+    box-shadow: 3px 10px 10px rgb(39, 38, 38);
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    left:58%;
+    display: none;
+    background: white;
+    top: 80px;}
+.xt{
+    border-bottom: 1px solid rgb(234, 235, 242);
+    
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio src="BLOK3 x LVBEL C5   G LAF.mp3" id="mahni" type="audio/mp3" ></audio>
+    <button onclick="mahni.play();vaxt()" >Play</button>
+    <button onclick="mahni.pause();stp()">Stop</button>
+    <button onclick="mahni.pause();stp();mahni.currentTime=0;sann=0;deq=0;san.innerHTML=`${deqsifr}${deq}:${sansifr}${sann}`;zaman.value=mahni.currentTime">Sifirla</button>
+    <button onclick="mahni.volume+=0.05">+</button>
+    <button onclick="mahni.volume-=0.05">-</button> <br>
+    <span id="san">00:00</span> 
+    <input type="range" id="zaman" >
+    
+    <script>
+        let zaman = document.querySelector("#zaman")
+        let mahni = document.querySelector("#mahni")
+        let san = document.querySelector("#san")
+         mahni.volume = 0.8
+        sann=0
+        deq = 0
+         zaman.value=mahni.currentTime
+         
+         function stp(){
+            clearInterval(int)
+            deqsifr="0"
+            sansifr="0"
+            deq=0
+            sann=0
+            
+         }
+         let int
+         function vaxt(a){
+             let sansifr="0"
+             let deqsifr="0"
+             int=setInterval(
+                   
+                  function sn(){
+                    if(sann>=10){sansifr=""}
+               san.innerHTML=`${deqsifr}${deq}:${sansifr}${sann}`;
+                   sann++
+                   if (san==60){san=0;deq++}
+               zaman.value=mahni.currentTime}
+                       
+                   ,1000
+               )
+          
+       
+        }
+
+    </script>
+</body>
+</html>

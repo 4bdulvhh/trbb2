@@ -1,0 +1,361 @@
+<html lang="en" class="light"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: {"50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"}
+            }
+          },
+          fontFamily: {
+            "body": ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
+            "sans": ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+          }
+        }
+      }
+    </script>
+    
+    <link rel="stylesheet" href="https://d2s3ptptdai04x.cloudfront.net/get-flowbite-pro.f13c8b1f-1643-4769-8710-ea370c2a9e1b.css?Expires=2013841944&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMnMzcHRwdGRhaTA0eC5jbG91ZGZyb250Lm5ldC9nZXQtZmxvd2JpdGUtcHJvLmYxM2M4YjFmLTE2NDMtNDc2OS04NzEwLWVhMzcwYzJhOWUxYi5jc3MiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjIwMTM4NDE5NDR9fX1dfQ__&amp;Signature=gdaMXIT4fqit~MDRSE25ei~NDLSlDutXP3fVKfA8rfcanqdR9YVlYIOWw6acdE7KQVwcqJ3R~N9D8PzHkSTsCXgnbYGcqANCQ0dBy0WH7hQPdQvlGAt06zUcap2CreT8GN2gv-RikiJ1DmpdD2gPKeZ82~33we85xbIQ6PdKuzSde~s85l0H3jJ1S6NvbJeBBfB0V90u7i4He0g5L-LSsQcgYThH8zZV0Ftn5FnMTb86CzIysaYn8yMX7NT-mTQtKfy-PvZP0QfKZ-v-narLHZ7XBlPbhWYjoNppaBB9kYiBv7ykrJyel9968d9p2HN9~bgYyy6NSIQ998D1L3Q05g__&amp;Key-Pair-Id=K2J5W1U51CTOXP">
+  <style>/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, ui-sans-serif, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }.bg-primary-700{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity))}.text-primary-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))}.text-primary-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity))}.dark\:text-primary-400:is(.dark *){--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity))}.dark\:text-primary-500:is(.dark *){--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity))}</style></head>
+  <body>
+    <header class="cmyDPxbqOqbqHiEyGnG8">
+<nav class="yjGyQxv8jnYk9_MGMqLN pxHuWvF853ck68OLN6ef veFXkDzfJN473U3ycrV8 sfxzXnWHolluRGSsbMHw _gKcj49wZgnwx1LpcJi6 zlFmyfujKXCLCPyPEOIS">
+<div class="kqgYncRJQ7spwKfig6It SaxexKs0G0X_YQvtMxF3 _T15kfOPGkvwZnqhqKce neyUwteEn7DOg9pBSJJE">
+    <div class="kqgYncRJQ7spwKfig6It XxgUTioBuGwyj4B5LVWV neyUwteEn7DOg9pBSJJE">
+        <a href="https://flowbite.com" class="kqgYncRJQ7spwKfig6It _ryfipzijJEI18CFfJIm">
+          <img src="https://flowbite.s3.amazonaws.com/logo.svg" class="Cl7RaVW6jbggnJW_S87T _pwSRUXRHN5bHphyTRKz" alt="FlowBite Logo">
+          <span class="dNzAVbf73rfV8iSOvOJV _e063bssp_1bldcJ6kR0 LYMps1kO2vF8HBymW3az b8ZffOVbGm2yi3A6gDUi a0Ed69aMSu0vgf4oysz0">Flowbite</span>
+        </a>
+      </div>
+    <div class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE _GZsiNCqsrFLCzwvCob5">
+        
+        <!-- Notifications -->
+        <button type="button" data-dropdown-toggle="notification-dropdown" class="Y34SQMYAJVIAdOFKA3gG K1PPCJwslha8GUIvV_Cr _Qk4_E9_iLqcHsRZZ4ge _xQT_qSXfwWf6ZhwRle4 DpMPWwlSESiYA8EE1xKM eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9 _OovBxfPdK7Rjv2nh2Ot _FONMPVaCsLFJJGDaaIL U3OVe1TPm4IDpDE4Poa9 P53YJBBtllZv8_nFHFHW">
+            <span class="BWabIWdbZ5qWNbPXxuBc">View notifications</span>
+            <!-- Bell icon -->
+            <svg class="eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 20"><path d="M12.133 10.632v-1.8A5.406 5.406 0 0 0 7.979 3.57.946.946 0 0 0 8 3.464V1.1a1 1 0 0 0-2 0v2.364a.946.946 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C1.867 13.018 0 13.614 0 14.807 0 15.4 0 16 .538 16h12.924C14 16 14 15.4 14 14.807c0-1.193-1.867-1.789-1.867-4.175ZM3.823 17a3.453 3.453 0 0 0 6.354 0H3.823Z"></path></svg>
+        </button>
+        <!-- Dropdown menu -->
+        <div class="j2x7_17hqRVmwte_tWFa Odj8n83y7sKz4V0UfIxN TnQIXm76rhSCcMn8B_oh _MTwKeST1JpgVPLVq9Qc wfYeBrW4MRQzEZ3x_GDI osxEM2eQc4Pc_arzCZsv Ot3uWqtdhT0fChobKrSi yjGyQxv8jnYk9_MGMqLN YPSoR6AXtPgkmylUmcbT FQJBolKGENZMnnBWg95Y _JhddqALGzNXF3JHzSyG lEOiI_7LxWn6ASz_YJ1F WoQqugRcWrYbmsWhxCUr _t2wg7hRcyKsNN8CSSeU" id="notification-dropdown" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(642px, 58px, 0px);">
+            <div class="ttxtqsLWp2pFRX8yUvWd zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 osxEM2eQc4Pc_arzCZsv _A6LflweZRUwrcL6M2Tk _F_1gdhzusC6tSOWHtx_ jJJfWn8GV_ODBSwRp2nH jCHKuJ3G7rklx_LiAfbf _t2wg7hRcyKsNN8CSSeU eCx_6PNzncAD5yo7Qcic">
+                Notifications
+            </div>
+            <div>
+            <a href="#" class="kqgYncRJQ7spwKfig6It _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 umaBek2qJLzF9vdDPtgc DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 _BIVSYBXQUqEf_ltPrSk">
+                <div class="dJBCIyiM9cLL9095_Hmw">
+                <img class="ypyUJHicDkra304ep7aN iHfXth36qiq_vmGHdGug n8e6ORKgPTnY6zgs5HS7" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Green avatar">
+                <div class="kqgYncRJQ7spwKfig6It iZ8W30HPRQAuO6al90LU _WclR59Ji8jwfmjPtOei neyUwteEn7DOg9pBSJJE _qkXHEmieujsdryhw57v _SpITMp2gqPWJMfAbcWv eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 n8e6ORKgPTnY6zgs5HS7 PWreZZgitgAm_Nv4Noh9 _WlCPLL0LIv8ViOuJIFs bg-primary-700 JeVit_1klYopnNwu_8oy">
+                    <svg class="eGLbGfR5AYzKjFKW_AQT Kj_JWX8VAGhGDhOAykml wP9HMsqy6b96l2HBRbgb" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18"><path d="M15.977.783A1 1 0 0 0 15 0H3a1 1 0 0 0-.977.783L.2 9h4.239a2.99 2.99 0 0 1 2.742 1.8 1.977 1.977 0 0 0 3.638 0A2.99 2.99 0 0 1 13.561 9H17.8L15.977.783ZM6 2h6a1 1 0 1 1 0 2H6a1 1 0 0 1 0-2Zm7 5H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Z"></path><path d="M1 18h16a1 1 0 0 0 1-1v-6h-4.439a.99.99 0 0 0-.908.6 3.978 3.978 0 0 1-7.306 0 .99.99 0 0 0-.908-.6H0v6a1 1 0 0 0 1 1Z"></path></svg>
+                </div>
+                </div>
+                <div class="_mzhSDAYlA3W05MgSqAf jCISvWkW5oStPH6Wrb_H">
+                    <div class="K1PPCJwslha8GUIvV_Cr oTkHpmOXEgQRdykOe3sq MxG1ClE4KPrIvlL5_Q5x _I_MQWIdGvp762x6TO97 eCx_6PNzncAD5yo7Qcic">New message from <span class="LYMps1kO2vF8HBymW3az g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Bonnie Green</span>: "Hey, what's up? All set for the presentation?"</div>
+                    <div class="XklWzT8y98pp042XEQp4 _A6LflweZRUwrcL6M2Tk text-primary-700 dark:text-primary-400">a few moments ago</div>
+                </div>
+            </a>
+            <a href="#" class="kqgYncRJQ7spwKfig6It _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 umaBek2qJLzF9vdDPtgc DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 _BIVSYBXQUqEf_ltPrSk">
+                <div class="dJBCIyiM9cLL9095_Hmw">
+                <img class="ypyUJHicDkra304ep7aN iHfXth36qiq_vmGHdGug n8e6ORKgPTnY6zgs5HS7" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar">
+                <div class="kqgYncRJQ7spwKfig6It iZ8W30HPRQAuO6al90LU _WclR59Ji8jwfmjPtOei neyUwteEn7DOg9pBSJJE _qkXHEmieujsdryhw57v _SpITMp2gqPWJMfAbcWv eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 J_ldU2ISOuzV8yupuBpE n8e6ORKgPTnY6zgs5HS7 PWreZZgitgAm_Nv4Noh9 _WlCPLL0LIv8ViOuJIFs JeVit_1klYopnNwu_8oy">
+                    <svg class="eGLbGfR5AYzKjFKW_AQT Kj_JWX8VAGhGDhOAykml wP9HMsqy6b96l2HBRbgb" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18"><path d="M6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Zm11-3h-2V5a1 1 0 0 0-2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 0 0 2 0V9h2a1 1 0 1 0 0-2Z"></path></svg>
+                </div>
+                </div>
+                <div class="_mzhSDAYlA3W05MgSqAf jCISvWkW5oStPH6Wrb_H">
+                    <div class="K1PPCJwslha8GUIvV_Cr oTkHpmOXEgQRdykOe3sq MxG1ClE4KPrIvlL5_Q5x _I_MQWIdGvp762x6TO97 eCx_6PNzncAD5yo7Qcic"><span class="LYMps1kO2vF8HBymW3az g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Jese leos</span> and <span class="_A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">5 others</span> started following you.</div>
+                    <div class="XklWzT8y98pp042XEQp4 _A6LflweZRUwrcL6M2Tk text-primary-700 dark:text-primary-400">10 minutes ago</div>
+                </div>
+            </a>
+            <a href="#" class="kqgYncRJQ7spwKfig6It _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 umaBek2qJLzF9vdDPtgc DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 _BIVSYBXQUqEf_ltPrSk">
+                <div class="dJBCIyiM9cLL9095_Hmw">
+                <img class="ypyUJHicDkra304ep7aN iHfXth36qiq_vmGHdGug n8e6ORKgPTnY6zgs5HS7" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="Joseph McFall avatar">
+                <div class="kqgYncRJQ7spwKfig6It iZ8W30HPRQAuO6al90LU _WclR59Ji8jwfmjPtOei neyUwteEn7DOg9pBSJJE _qkXHEmieujsdryhw57v _SpITMp2gqPWJMfAbcWv eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 duvDRRD6Ay_I7VPOSHcJ n8e6ORKgPTnY6zgs5HS7 PWreZZgitgAm_Nv4Noh9 _WlCPLL0LIv8ViOuJIFs JeVit_1klYopnNwu_8oy">
+                  <svg class="eGLbGfR5AYzKjFKW_AQT Kj_JWX8VAGhGDhOAykml wP9HMsqy6b96l2HBRbgb" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18"> <path d="M17.947 2.053a5.209 5.209 0 0 0-3.793-1.53A6.414 6.414 0 0 0 10 2.311 6.482 6.482 0 0 0 5.824.5a5.2 5.2 0 0 0-3.8 1.521c-1.915 1.916-2.315 5.392.625 8.333l7 7a.5.5 0 0 0 .708 0l7-7a6.6 6.6 0 0 0 2.123-4.508 5.179 5.179 0 0 0-1.533-3.793Z"></path> </svg>                      
+                </div>
+                </div>
+                <div class="_mzhSDAYlA3W05MgSqAf jCISvWkW5oStPH6Wrb_H">
+                    <div class="K1PPCJwslha8GUIvV_Cr oTkHpmOXEgQRdykOe3sq MxG1ClE4KPrIvlL5_Q5x _I_MQWIdGvp762x6TO97 eCx_6PNzncAD5yo7Qcic"><span class="LYMps1kO2vF8HBymW3az g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Joseph Mcfall</span> and <span class="_A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">141 others</span> love your story. See it and view more stories.</div>
+                    <div class="XklWzT8y98pp042XEQp4 _A6LflweZRUwrcL6M2Tk text-primary-700 dark:text-primary-400">44 minutes ago</div>
+                </div>
+            </a>
+            <a href="#" class="kqgYncRJQ7spwKfig6It _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 umaBek2qJLzF9vdDPtgc DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 _BIVSYBXQUqEf_ltPrSk">
+                <div class="dJBCIyiM9cLL9095_Hmw">
+                <img class="ypyUJHicDkra304ep7aN iHfXth36qiq_vmGHdGug n8e6ORKgPTnY6zgs5HS7" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="Roberta Casas image">
+                <div class="kqgYncRJQ7spwKfig6It iZ8W30HPRQAuO6al90LU _WclR59Ji8jwfmjPtOei neyUwteEn7DOg9pBSJJE _qkXHEmieujsdryhw57v _SpITMp2gqPWJMfAbcWv eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 bd0zM0b1Uuf_A68A29k0 n8e6ORKgPTnY6zgs5HS7 PWreZZgitgAm_Nv4Noh9 _WlCPLL0LIv8ViOuJIFs JeVit_1klYopnNwu_8oy">
+                    <svg class="eGLbGfR5AYzKjFKW_AQT Kj_JWX8VAGhGDhOAykml wP9HMsqy6b96l2HBRbgb" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18"><path d="M18 0H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2v4a1 1 0 0 0 1.707.707L10.414 13H18a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5 4h2a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2ZM5 4h5a1 1 0 1 1 0 2H5a1 1 0 0 1 0-2Zm2 5H5a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Zm9 0h-6a1 1 0 0 1 0-2h6a1 1 0 1 1 0 2Z"></path></svg>
+                </div>
+                </div>
+                <div class="_mzhSDAYlA3W05MgSqAf jCISvWkW5oStPH6Wrb_H">
+                    <div class="K1PPCJwslha8GUIvV_Cr oTkHpmOXEgQRdykOe3sq MxG1ClE4KPrIvlL5_Q5x _I_MQWIdGvp762x6TO97 eCx_6PNzncAD5yo7Qcic"><span class="LYMps1kO2vF8HBymW3az g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Leslie Livingston</span> mentioned you in a comment: <span class="_A6LflweZRUwrcL6M2Tk text-primary-700 dark:text-primary-500">@bonnie.green</span> what do you say?</div>
+                    <div class="XklWzT8y98pp042XEQp4 _A6LflweZRUwrcL6M2Tk text-primary-700 dark:text-primary-400">1 hour ago</div>
+                </div>
+            </a>
+            <a href="#" class="kqgYncRJQ7spwKfig6It _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5">
+                <div class="dJBCIyiM9cLL9095_Hmw">
+                <img class="ypyUJHicDkra304ep7aN iHfXth36qiq_vmGHdGug n8e6ORKgPTnY6zgs5HS7" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/robert-brown.png" alt="Robert image">
+                <div class="kqgYncRJQ7spwKfig6It iZ8W30HPRQAuO6al90LU _WclR59Ji8jwfmjPtOei neyUwteEn7DOg9pBSJJE _qkXHEmieujsdryhw57v _SpITMp2gqPWJMfAbcWv eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 S3x6o62ctvJKkMpjqmsM n8e6ORKgPTnY6zgs5HS7 PWreZZgitgAm_Nv4Noh9 _WlCPLL0LIv8ViOuJIFs JeVit_1klYopnNwu_8oy">
+                    <svg class="eGLbGfR5AYzKjFKW_AQT Kj_JWX8VAGhGDhOAykml wP9HMsqy6b96l2HBRbgb" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14"><path d="M11 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm8.585 1.189a.994.994 0 0 0-.9-.138l-2.965.983a1 1 0 0 0-.685.949v8a1 1 0 0 0 .675.946l2.965 1.02a1.013 1.013 0 0 0 1.032-.242A1 1 0 0 0 20 12V2a1 1 0 0 0-.415-.811Z"></path></svg>
+                </div>
+                </div>
+                <div class="_mzhSDAYlA3W05MgSqAf jCISvWkW5oStPH6Wrb_H">
+                    <div class="K1PPCJwslha8GUIvV_Cr oTkHpmOXEgQRdykOe3sq MxG1ClE4KPrIvlL5_Q5x _I_MQWIdGvp762x6TO97 eCx_6PNzncAD5yo7Qcic"><span class="LYMps1kO2vF8HBymW3az g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Robert Brown</span> posted a new video: Glassmorphism - learn how to implement the new design trend.</div>
+                    <div class="XklWzT8y98pp042XEQp4 _A6LflweZRUwrcL6M2Tk text-primary-700 dark:text-primary-400">3 hours ago</div>
+                </div>
+            </a>
+            </div>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd zhRMeqbg7JsftloqW_W6 osxEM2eQc4Pc_arzCZsv _A6LflweZRUwrcL6M2Tk _F_1gdhzusC6tSOWHtx_ g3OYBOqwXUEW4dRGogkH jCHKuJ3G7rklx_LiAfbf DpMPWwlSESiYA8EE1xKM _t2wg7hRcyKsNN8CSSeU a0Ed69aMSu0vgf4oysz0 _49Xun3YgZVvsmtsAjPQ">
+                <div class="ay0ziTPUL4Ag5d1DkSY7 neyUwteEn7DOg9pBSJJE">
+                <svg aria-hidden="true" class="_gmxfZ2BpOHxa6nWwqBB eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                View all
+                </div>
+            </a>
+        </div>
+
+        <span class="emoDGkYQwQwUxXhyniBh nXk35Ax0xyEznVfZmtei RRXFBumaW2SHdseZaWm6 vyuwQLkFO7jUAv3Xr23z _uoTEG_CU7r6UxI59Mw4 _DUTli9IKFn4UgbV0sVT"></span>
+
+        <!-- Apps -->
+        <button type="button" data-dropdown-toggle="apps-dropdown" class="Y34SQMYAJVIAdOFKA3gG K1PPCJwslha8GUIvV_Cr _Qk4_E9_iLqcHsRZZ4ge _xQT_qSXfwWf6ZhwRle4 DpMPWwlSESiYA8EE1xKM eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9 _OovBxfPdK7Rjv2nh2Ot _FONMPVaCsLFJJGDaaIL U3OVe1TPm4IDpDE4Poa9 P53YJBBtllZv8_nFHFHW">
+            <span class="BWabIWdbZ5qWNbPXxuBc">View notifications</span>
+            <!-- Icon -->
+            <svg class="kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18"><path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z"></path></svg>
+        </button>
+        <!-- Dropdown menu -->
+        <div class="j2x7_17hqRVmwte_tWFa Odj8n83y7sKz4V0UfIxN TnQIXm76rhSCcMn8B_oh _MTwKeST1JpgVPLVq9Qc wfYeBrW4MRQzEZ3x_GDI osxEM2eQc4Pc_arzCZsv Ot3uWqtdhT0fChobKrSi yjGyQxv8jnYk9_MGMqLN YPSoR6AXtPgkmylUmcbT FQJBolKGENZMnnBWg95Y _JhddqALGzNXF3JHzSyG lEOiI_7LxWn6ASz_YJ1F _t2wg7hRcyKsNN8CSSeU WoQqugRcWrYbmsWhxCUr" id="apps-dropdown" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(693.333px, 56px, 0px);">
+            <div class="ttxtqsLWp2pFRX8yUvWd zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 osxEM2eQc4Pc_arzCZsv _A6LflweZRUwrcL6M2Tk _F_1gdhzusC6tSOWHtx_ jJJfWn8GV_ODBSwRp2nH jCHKuJ3G7rklx_LiAfbf _t2wg7hRcyKsNN8CSSeU eCx_6PNzncAD5yo7Qcic">
+                Apps
+            </div>
+            <div class="i0EfZzmTLElZVOble53D _MyQ765quWVGEUhOM9_D Ced8tRkG1VjcbmNVdBtj iHyrYta0Jcy0_7nMWLK7">
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20"><path d="M17 5.923A1 1 0 0 0 16 5h-3V4a4 4 0 1 0-8 0v1H2a1 1 0 0 0-1 .923L.086 17.846A2 2 0 0 0 2.08 20h13.84a2 2 0 0 0 1.994-2.153L17 5.923ZM7 9a1 1 0 0 1-2 0V7h2v2Zm0-5a2 2 0 1 1 4 0v1H7V4Zm6 5a1 1 0 1 1-2 0V7h2v2Z"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Sales</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 19"><path d="M14.5 0A3.987 3.987 0 0 0 11 2.1a4.977 4.977 0 0 1 3.9 5.858A3.989 3.989 0 0 0 14.5 0ZM9 13h2a4 4 0 0 1 4 4v2H5v-2a4 4 0 0 1 4-4Z"></path><path d="M5 19h10v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2ZM5 7a5.008 5.008 0 0 1 4-4.9 3.988 3.988 0 1 0-3.9 5.859A4.974 4.974 0 0 1 5 7Zm5 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm5-1h-.424a5.016 5.016 0 0 1-1.942 2.232A6.007 6.007 0 0 1 17 17h2a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5ZM5.424 9H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h2a6.007 6.007 0 0 1 4.366-5.768A5.016 5.016 0 0 1 5.424 9Z"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Users</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                 <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18"> <path d="M15.977.783A1 1 0 0 0 15 0H3a1 1 0 0 0-.977.783L.2 9h4.239a2.99 2.99 0 0 1 2.742 1.8 1.977 1.977 0 0 0 3.638 0A2.99 2.99 0 0 1 13.561 9H17.8L15.977.783ZM6 2h6a1 1 0 1 1 0 2H6a1 1 0 0 1 0-2Zm7 5H5a1 1 0 0 1 0-2h8a1 1 0 1 1 0 2Z"></path> <path d="M1 18h16a1 1 0 0 0 1-1v-6h-4.439a.99.99 0 0 0-.908.6 3.978 3.978 0 0 1-7.306 0 .99.99 0 0 0-.908-.6H0v6a1 1 0 0 0 1 1Z"></path> </svg>                      
+                 <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Inbox</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Profile</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M18 7.5h-.423l-.452-1.09.3-.3a1.5 1.5 0 0 0 0-2.121L16.01 2.575a1.5 1.5 0 0 0-2.121 0l-.3.3-1.089-.452V2A1.5 1.5 0 0 0 11 .5H9A1.5 1.5 0 0 0 7.5 2v.423l-1.09.452-.3-.3a1.5 1.5 0 0 0-2.121 0L2.576 3.99a1.5 1.5 0 0 0 0 2.121l.3.3L2.423 7.5H2A1.5 1.5 0 0 0 .5 9v2A1.5 1.5 0 0 0 2 12.5h.423l.452 1.09-.3.3a1.5 1.5 0 0 0 0 2.121l1.415 1.413a1.5 1.5 0 0 0 2.121 0l.3-.3 1.09.452V18A1.5 1.5 0 0 0 9 19.5h2a1.5 1.5 0 0 0 1.5-1.5v-.423l1.09-.452.3.3a1.5 1.5 0 0 0 2.121 0l1.415-1.414a1.5 1.5 0 0 0 0-2.121l-.3-.3.452-1.09H18a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 18 7.5Zm-8 6a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Settings</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16"><path d="M19 0H1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1ZM2 6v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6H2Zm11 3a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8a1 1 0 0 1 2 0h2a1 1 0 0 1 2 0v1Z"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Products</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 11 20"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1.75 15.363a4.954 4.954 0 0 0 2.638 1.574c2.345.572 4.653-.434 5.155-2.247.502-1.813-1.313-3.79-3.657-4.364-2.344-.574-4.16-2.551-3.658-4.364.502-1.813 2.81-2.818 5.155-2.246A4.97 4.97 0 0 1 10 5.264M6 17.097v1.82m0-17.5v2.138"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Pricing</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20"><path d="M7 11H5v1h2v-1Zm4 3H9v1h2v-1Zm-4 0H5v1h2v-1ZM5 5V.13a2.98 2.98 0 0 0-1.293.749L.88 3.707A2.98 2.98 0 0 0 .13 5H5Z"></path><path d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM13 16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v6Zm-1-8H9a1 1 0 0 1 0-2h3a1 1 0 1 1 0 2Zm0-3H9a1 1 0 0 1 0-2h3a1 1 0 1 1 0 2Z"></path><path d="M11 11H9v1h2v-1Z"></path></svg>    
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Billing</div>
+            </a>
+            <a href="#" class="ttxtqsLWp2pFRX8yUvWd iHyrYta0Jcy0_7nMWLK7 _F_1gdhzusC6tSOWHtx_ _Qk4_E9_iLqcHsRZZ4ge DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 __CB1NVTb04MHxDxK6Hw">
+                <svg class="RV8RoaI_SlEMC5CEQ3ms rD4HtsUG_hahmbh2Kj09 eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6 rZZ58B08lxezTX7iNgGT _z9Q27RmQt0r3zls_cQv eCx_6PNzncAD5yo7Qcic yLDJSlKBV1t3drUHgwh0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h11m0 0-4-4m4 4-4 4m-5 3H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h3"></path></svg>
+                <div class="MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Logout</div>
+            </a>
+            </div>
+        </div>
+
+        <span class="j2x7_17hqRVmwte_tWFa emoDGkYQwQwUxXhyniBh nXk35Ax0xyEznVfZmtei RRXFBumaW2SHdseZaWm6 vyuwQLkFO7jUAv3Xr23z _uoTEG_CU7r6UxI59Mw4 _DUTli9IKFn4UgbV0sVT"></span>
+
+        <!-- FAQ link -->
+        <button type="button" data-tooltip-target="tooltip-faq" class="j2x7_17hqRVmwte_tWFa Y34SQMYAJVIAdOFKA3gG K1PPCJwslha8GUIvV_Cr _Qk4_E9_iLqcHsRZZ4ge _7SN_kPUFg0CCIffeIXu _xQT_qSXfwWf6ZhwRle4 DpMPWwlSESiYA8EE1xKM eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9 _OovBxfPdK7Rjv2nh2Ot _FONMPVaCsLFJJGDaaIL U3OVe1TPm4IDpDE4Poa9 P53YJBBtllZv8_nFHFHW">
+            <span class="BWabIWdbZ5qWNbPXxuBc">View FAQ</span>
+            <!-- Icon -->
+            <svg class="eUuXwBkW5W4__eatjSfd RRXFBumaW2SHdseZaWm6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm0 16a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm1-5.034V12a1 1 0 0 1-2 0v-1.418a1 1 0 0 1 1.038-.999 1.436 1.436 0 0 0 1.488-1.441 1.501 1.501 0 1 0-3-.116.986.986 0 0 1-1.037.961 1 1 0 0 1-.96-1.037A3.5 3.5 0 1 1 11 11.466Z"></path></svg>
+        </button>
+        <div id="tooltip-faq" role="tooltip" class="ADhvqXKjAizJqFADNpvd iZ8W30HPRQAuO6al90LU p3NM1OB16vfk_yD2siUB _v8hjA9ct_v6OhSQD7fC zhRMeqbg7JsftloqW_W6 MQMN74ivNmI6x68DZajA MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk wP9HMsqy6b96l2HBRbgb J_ldU2ISOuzV8yupuBpE _Qk4_E9_iLqcHsRZZ4ge ltPMSn_g3PKyqeS8vmZk AtHBVur__RVIv6BHiI4a M4SAv60iaayh2_Cd_QyF KB__y25H2tVACg2mjb4C Usqns9w__onp5CWoXDJ0 _t2wg7hRcyKsNN8CSSeU" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(700px, 56px, 0px);">
+            View FAQ
+            <div class="POMYoNHqN8pOsNYFYFHr" data-popper-arrow="" style="position: absolute; left: 0px; transform: translate3d(40px, 0px, 0px);"></div>
+        </div>
+
+        <span class="j2x7_17hqRVmwte_tWFa emoDGkYQwQwUxXhyniBh nXk35Ax0xyEznVfZmtei RRXFBumaW2SHdseZaWm6 vyuwQLkFO7jUAv3Xr23z _uoTEG_CU7r6UxI59Mw4 _DUTli9IKFn4UgbV0sVT"></span>
+
+        <button type="button" id="regionDropdownButton" data-dropdown-toggle="regionDropdown" class="j2x7_17hqRVmwte_tWFa neyUwteEn7DOg9pBSJJE Y34SQMYAJVIAdOFKA3gG o2Ul2ehO22E_G9Nn7M4G mhot0RlBMBaJgbqzaf8O _A6LflweZRUwrcL6M2Tk K1PPCJwslha8GUIvV_Cr _Qk4_E9_iLqcHsRZZ4ge wTXS_rY4vMYop_O1WHt4 _xQT_qSXfwWf6ZhwRle4 DpMPWwlSESiYA8EE1xKM eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9 _OovBxfPdK7Rjv2nh2Ot _FONMPVaCsLFJJGDaaIL U3OVe1TPm4IDpDE4Poa9 P53YJBBtllZv8_nFHFHW">
+            N. Virginia
+            <!-- Icon -->
+            <svg class="hDwBtOhIf4ji_OJlxtQ5 Har7ksLdj_gpHuS5dC3P TgTGAmddWflW6fO6ZO4l" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"></path></svg>
+        </button>
+        <div id="regionDropdown" class="j2x7_17hqRVmwte_tWFa _v8hjA9ct_v6OhSQD7fC sdeZmvcfV4Ll7YpgB2zF yjGyQxv8jnYk9_MGMqLN YPSoR6AXtPgkmylUmcbT FQJBolKGENZMnnBWg95Y _JhddqALGzNXF3JHzSyG lhxYQ_2y3sYNN3W1V_3q _t2wg7hRcyKsNN8CSSeU WoQqugRcWrYbmsWhxCUr" data-popper-placement="bottom" data-popper-reference-hidden="" data-popper-escaped="" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 10px, 0px);">
+            <ul class="_7ErNxHG5jDLGpANMK93 BhwLImxiKVK7cd9lTTdm MxG1ClE4KPrIvlL5_Q5x jJJfWn8GV_ODBSwRp2nH mEiJmUhVeO0zHYjQchDB" aria-labelledby="regionDropdownButton">
+              <li>
+                <div class="kqgYncRJQ7spwKfig6It Y34SQMYAJVIAdOFKA3gG YPSoR6AXtPgkmylUmcbT DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5">
+                  <div class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE RRXFBumaW2SHdseZaWm6">
+                      <input id="helper-radio-4" name="helper-radio" type="radio" value="" class="kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT _Il9cmobGAOeKlZtFmMF _iRPzRRWy2UNkvZFG8iO T_tFENbpK8DMDNjQRyQa XqTQaCRgxrhPloX2lDDg _H4Ii5zoeSFfH9e9pUjm Ld1r4qmwVuBs_1y_rMGN X3ifvK6lzvLzkZabaIQd _uoTEG_CU7r6UxI59Mw4 c4d_cyxeprbSxLoRnbIr">
+                  </div>
+                  <div class="QGosQoeY76W_hWM2rgwJ MxG1ClE4KPrIvlL5_Q5x">
+                      <label for="helper-radio-4" class="_A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH _Rz9TooiK_4jTN_Ub8Gm">
+                        <div>New York</div>
+                        <p id="helper-radio-text-4" class="XklWzT8y98pp042XEQp4 oTkHpmOXEgQRdykOe3sq K1PPCJwslha8GUIvV_Cr _Rz9TooiK_4jTN_Ub8Gm">Dynamic server switching</p>
+                      </label>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="kqgYncRJQ7spwKfig6It Y34SQMYAJVIAdOFKA3gG YPSoR6AXtPgkmylUmcbT DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5">
+                  <div class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE RRXFBumaW2SHdseZaWm6">
+                      <input id="helper-radio-5" name="helper-radio" type="radio" value="" class="kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT _Il9cmobGAOeKlZtFmMF _iRPzRRWy2UNkvZFG8iO T_tFENbpK8DMDNjQRyQa XqTQaCRgxrhPloX2lDDg _H4Ii5zoeSFfH9e9pUjm Ld1r4qmwVuBs_1y_rMGN X3ifvK6lzvLzkZabaIQd _uoTEG_CU7r6UxI59Mw4 c4d_cyxeprbSxLoRnbIr">
+                  </div>
+                  <div class="QGosQoeY76W_hWM2rgwJ MxG1ClE4KPrIvlL5_Q5x">
+                      <label for="helper-radio-5" class="_A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH _Rz9TooiK_4jTN_Ub8Gm">
+                        <div>N. Virginia</div>
+                        <p id="helper-radio-text-5" class="XklWzT8y98pp042XEQp4 oTkHpmOXEgQRdykOe3sq K1PPCJwslha8GUIvV_Cr _Rz9TooiK_4jTN_Ub8Gm">Auto-scaling adapter</p>
+                      </label>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="kqgYncRJQ7spwKfig6It Y34SQMYAJVIAdOFKA3gG YPSoR6AXtPgkmylUmcbT DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5">
+                  <div class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE RRXFBumaW2SHdseZaWm6">
+                      <input id="helper-radio-6" name="helper-radio" type="radio" value="" class="kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT _Il9cmobGAOeKlZtFmMF _iRPzRRWy2UNkvZFG8iO T_tFENbpK8DMDNjQRyQa XqTQaCRgxrhPloX2lDDg _H4Ii5zoeSFfH9e9pUjm Ld1r4qmwVuBs_1y_rMGN X3ifvK6lzvLzkZabaIQd _uoTEG_CU7r6UxI59Mw4 c4d_cyxeprbSxLoRnbIr">
+                  </div>
+                  <div class="QGosQoeY76W_hWM2rgwJ MxG1ClE4KPrIvlL5_Q5x">
+                      <label for="helper-radio-6" class="_A6LflweZRUwrcL6M2Tk g3OYBOqwXUEW4dRGogkH _Rz9TooiK_4jTN_Ub8Gm">
+                        <div>Washington DC.</div>
+                        <p id="helper-radio-text-6" class="XklWzT8y98pp042XEQp4 oTkHpmOXEgQRdykOe3sq K1PPCJwslha8GUIvV_Cr _Rz9TooiK_4jTN_Ub8Gm">Automatic backups included</p>
+                      </label>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+
+        <span class="emoDGkYQwQwUxXhyniBh nXk35Ax0xyEznVfZmtei RRXFBumaW2SHdseZaWm6 vyuwQLkFO7jUAv3Xr23z _uoTEG_CU7r6UxI59Mw4 _DUTli9IKFn4UgbV0sVT"></span>
+        
+        <!-- User menu -->
+        <button type="button" id="userDropdownButton" data-dropdown-toggle="userDropdown" class="j2x7_17hqRVmwte_tWFa neyUwteEn7DOg9pBSJJE Y34SQMYAJVIAdOFKA3gG o2Ul2ehO22E_G9Nn7M4G mhot0RlBMBaJgbqzaf8O _A6LflweZRUwrcL6M2Tk K1PPCJwslha8GUIvV_Cr _Qk4_E9_iLqcHsRZZ4ge wTXS_rY4vMYop_O1WHt4 _xQT_qSXfwWf6ZhwRle4 DpMPWwlSESiYA8EE1xKM eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9 _OovBxfPdK7Rjv2nh2Ot _FONMPVaCsLFJJGDaaIL U3OVe1TPm4IDpDE4Poa9 P53YJBBtllZv8_nFHFHW">
+            Bonnie Green @ 1234-567-890
+            <!-- Icon -->
+            <svg class="hDwBtOhIf4ji_OJlxtQ5 Har7ksLdj_gpHuS5dC3P TgTGAmddWflW6fO6ZO4l" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"></path></svg>
+        </button>
+        <!-- Dropdown menu -->
+        <div class="j2x7_17hqRVmwte_tWFa TnQIXm76rhSCcMn8B_oh _MTwKeST1JpgVPLVq9Qc R1IlbYMn17w0PrCszaYh osxEM2eQc4Pc_arzCZsv Ot3uWqtdhT0fChobKrSi yjGyQxv8jnYk9_MGMqLN YPSoR6AXtPgkmylUmcbT FQJBolKGENZMnnBWg95Y _JhddqALGzNXF3JHzSyG lhxYQ_2y3sYNN3W1V_3q _t2wg7hRcyKsNN8CSSeU WoQqugRcWrYbmsWhxCUr" id="userDropdown" data-popper-placement="bottom" data-popper-reference-hidden="" data-popper-escaped="" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 10px, 0px);">
+            <div class="_Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8">
+                <span class="ttxtqsLWp2pFRX8yUvWd MxG1ClE4KPrIvlL5_Q5x LYMps1kO2vF8HBymW3az g3OYBOqwXUEW4dRGogkH a0Ed69aMSu0vgf4oysz0">Bonnie Green</span>
+                <span class="ttxtqsLWp2pFRX8yUvWd MxG1ClE4KPrIvlL5_Q5x K1PPCJwslha8GUIvV_Cr _rcC9UE5QqF6embEYjq4 eCx_6PNzncAD5yo7Qcic">bonnie@flowbite.com</span>
+            </div>
+            <ul class="e6xSuaqE4UvMawjVXuq_ K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic" aria-labelledby="userDropdownButton">
+                <li>
+                    <a href="#" class="ttxtqsLWp2pFRX8yUvWd zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 MxG1ClE4KPrIvlL5_Q5x DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9">My profile</a>
+                </li>
+                <li>
+                    <a href="#" class="ttxtqsLWp2pFRX8yUvWd zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 MxG1ClE4KPrIvlL5_Q5x DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9">Account settings</a>
+                </li>
+            </ul>
+            <ul class="e6xSuaqE4UvMawjVXuq_ K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic" aria-labelledby="userDropdownButton">
+                <li>
+                    <a href="#" class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 MxG1ClE4KPrIvlL5_Q5x DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 DTyjKhtXBNaebZa5L0l9">
+                        <svg class="_gmxfZ2BpOHxa6nWwqBB kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT rZZ58B08lxezTX7iNgGT" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18"><path d="M17.947 2.053a5.209 5.209 0 0 0-3.793-1.53A6.414 6.414 0 0 0 10 2.311 6.482 6.482 0 0 0 5.824.5a5.2 5.2 0 0 0-3.8 1.521c-1.915 1.916-2.315 5.392.625 8.333l7 7a.5.5 0 0 0 .708 0l7-7a6.6 6.6 0 0 0 2.123-4.508 5.179 5.179 0 0 0-1.533-3.793Z"></path></svg>
+                        My likes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 MxG1ClE4KPrIvlL5_Q5x DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 DTyjKhtXBNaebZa5L0l9">
+                      <svg class="_gmxfZ2BpOHxa6nWwqBB kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT rZZ58B08lxezTX7iNgGT" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"> <path d="m1.56 6.245 8 3.924a1 1 0 0 0 .88 0l8-3.924a1 1 0 0 0 0-1.8l-8-3.925a1 1 0 0 0-.88 0l-8 3.925a1 1 0 0 0 0 1.8Z"></path> <path d="M18 8.376a1 1 0 0 0-1 1v.163l-7 3.434-7-3.434v-.163a1 1 0 0 0-2 0v.786a1 1 0 0 0 .56.9l8 3.925a1 1 0 0 0 .88 0l8-3.925a1 1 0 0 0 .56-.9v-.786a1 1 0 0 0-1-1Z"></path> <path d="M17.993 13.191a1 1 0 0 0-1 1v.163l-7 3.435-7-3.435v-.163a1 1 0 1 0-2 0v.787a1 1 0 0 0 .56.9l8 3.925a1 1 0 0 0 .88 0l8-3.925a1 1 0 0 0 .56-.9v-.787a1 1 0 0 0-1-1Z"></path> </svg> 
+                      Collections
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="kqgYncRJQ7spwKfig6It _T15kfOPGkvwZnqhqKce neyUwteEn7DOg9pBSJJE zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 MxG1ClE4KPrIvlL5_Q5x DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 DTyjKhtXBNaebZa5L0l9">
+                        <span class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE">
+                            <svg class="_gmxfZ2BpOHxa6nWwqBB kbeH5ty3CtPKxXm5TXph eVNhx7m5tjSVbfYQzDdT text-primary-600 dark:text-primary-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="m7.164 3.805-4.475.38L.327 6.546a1.114 1.114 0 0 0 .63 1.89l3.2.375 3.007-5.006ZM11.092 15.9l.472 3.14a1.114 1.114 0 0 0 1.89.63l2.36-2.362.38-4.475-5.102 3.067Zm8.617-14.283A1.613 1.613 0 0 0 18.383.291c-1.913-.33-5.811-.736-7.556 1.01-1.98 1.98-6.172 9.491-7.477 11.869a1.1 1.1 0 0 0 .193 1.316l.986.985.985.986a1.1 1.1 0 0 0 1.316.193c2.378-1.3 9.889-5.5 11.869-7.477 1.746-1.745 1.34-5.643 1.01-7.556Zm-3.873 6.268a2.63 2.63 0 1 1-3.72-3.72 2.63 2.63 0 0 1 3.72 3.72Z"></path></svg>
+                            Pro version
+                        </span>
+                        <svg class="GD9v02LPrXx0bKb_6d2L Nb4gW_ig9uJTPkpriXvQ rZZ58B08lxezTX7iNgGT" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path></svg>
+                    </a>
+                </li>
+            </ul>
+            <ul class="e6xSuaqE4UvMawjVXuq_ K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic" aria-labelledby="userDropdownButton">
+                <li>
+                    <a href="#" class="ttxtqsLWp2pFRX8yUvWd zhRMeqbg7JsftloqW_W6 veFXkDzfJN473U3ycrV8 MxG1ClE4KPrIvlL5_Q5x DpMPWwlSESiYA8EE1xKM xotVay0PVtR3gElm6ql5 DTyjKhtXBNaebZa5L0l9">Sign out</a>
+                </li>
+            </ul>
+        </div>
+
+        <button type="button" id="toggleMobileMenuButton" data-collapse-toggle="toggleMobileMenu" class="neyUwteEn7DOg9pBSJJE Y34SQMYAJVIAdOFKA3gG K1PPCJwslha8GUIvV_Cr _Qk4_E9_iLqcHsRZZ4ge h8gF_NZYDOJSgLV1azfd _xQT_qSXfwWf6ZhwRle4 DpMPWwlSESiYA8EE1xKM eCx_6PNzncAD5yo7Qcic DTyjKhtXBNaebZa5L0l9 _OovBxfPdK7Rjv2nh2Ot _FONMPVaCsLFJJGDaaIL U3OVe1TPm4IDpDE4Poa9 P53YJBBtllZv8_nFHFHW">
+            <span class="BWabIWdbZ5qWNbPXxuBc">Open menu</span>
+            <svg class="nLhohPz5FpffXM9RSdFT _XD2a764x49B1E2F9f8X" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+    </div>
+</div>
+</nav>
+<nav id="toggleMobileMenu" class="j2x7_17hqRVmwte_tWFa yjGyQxv8jnYk9_MGMqLN V_jZDPHlRhtQW09rzN2V VVZ_Dbr5dNnZYEJIP24r zlFmyfujKXCLCPyPEOIS czGmoDY2lMQ_0SyND3x7">
+<div class="psGSaoX3vEaTuVjCVZ1M YiSYYzPLicmBnFcGguVo sfxzXnWHolluRGSsbMHw">
+    <div class="kqgYncRJQ7spwKfig6It neyUwteEn7DOg9pBSJJE">
+        <ul class="kqgYncRJQ7spwKfig6It BrSO24r_jx46AXZOyBJR XcSpuU6UaRz9lMMnh_Pb jCISvWkW5oStPH6Wrb_H MxG1ClE4KPrIvlL5_Q5x _A6LflweZRUwrcL6M2Tk FyHehWUMMCC5uel0SYHO aXohCatq2P98Q80o4vdb">
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc Hy7fSoMkW1_3XuxzLIXq h8gF_NZYDOJSgLV1azfd">
+                <button type="button" data-dropdown-toggle="userDropdown" class="kqgYncRJQ7spwKfig6It _T15kfOPGkvwZnqhqKce neyUwteEn7DOg9pBSJJE _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 jCISvWkW5oStPH6Wrb_H g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">
+                    <span>Account <span class="QGosQoeY76W_hWM2rgwJ osxEM2eQc4Pc_arzCZsv K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic">Bonnie @ 1234-567-890</span></span>
+                    <svg class="GD9v02LPrXx0bKb_6d2L Nb4gW_ig9uJTPkpriXvQ K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path> </svg>
+                </button>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc Hy7fSoMkW1_3XuxzLIXq h8gF_NZYDOJSgLV1azfd">
+                <button type="button" data-dropdown-toggle="regionDropdown" class="kqgYncRJQ7spwKfig6It _T15kfOPGkvwZnqhqKce neyUwteEn7DOg9pBSJJE _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 jCISvWkW5oStPH6Wrb_H g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">
+                    <span>Regions <span class="QGosQoeY76W_hWM2rgwJ osxEM2eQc4Pc_arzCZsv K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic">US East (N. Virginia)</span></span>
+                    <svg class="GD9v02LPrXx0bKb_6d2L Nb4gW_ig9uJTPkpriXvQ K1PPCJwslha8GUIvV_Cr eCx_6PNzncAD5yo7Qcic" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"></path> </svg>
+                </button>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU" aria-current="page">Home</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Company</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Team</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Features</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Marketplace</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Resources</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd umaBek2qJLzF9vdDPtgc JeVit_1klYopnNwu_8oy _DUTli9IKFn4UgbV0sVT yEzOdpPD2TUO_VaWghpQ yuaTkD7U9npK_OpozVGB">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Forum</a>
+            </li>
+            <li class="ttxtqsLWp2pFRX8yUvWd _DUTli9IKFn4UgbV0sVT">
+                <a href="#" class="ttxtqsLWp2pFRX8yUvWd _Masco_7wTrd3Tc0qjp9 veFXkDzfJN473U3ycrV8 g3OYBOqwXUEW4dRGogkH PXkJjw7zOhdtCh3e_PWh a0Ed69aMSu0vgf4oysz0 B7eRA6ZgyqntBIYmMFU2 j2LbJsv69LlTTZXODnoU">Support</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+</header>
+    <script src="https://d2s3ptptdai04x.cloudfront.net/get-flowbite-pro.80d50732-e5aa-4f4f-9fd6-f6207529c302.js?Expires=2013841951&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMnMzcHRwdGRhaTA0eC5jbG91ZGZyb250Lm5ldC9nZXQtZmxvd2JpdGUtcHJvLjgwZDUwNzMyLWU1YWEtNGY0Zi05ZmQ2LWY2MjA3NTI5YzMwMi5qcyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MjAxMzg0MTk1MX19fV19&amp;Signature=HVM6Qp2zIDzcsH5j65wQizBQfNsA7wwy3wZU96dOGfOZ~ebGWK0-yibjbN-wdVSqke5h-ApTas8l5yvIWZHGGTxNBjLpsCEJVHXFp-9MXHXgvZ6TYPFFeVRn80uoVg5xNPNDaxerefFm0xCxlSvsQweQOwm-lTgge3IppXIE42gePyOHUYYeP9AnCVdwGxngLxsK2uyO-1cwCu58Rl3SVqRMdUHDsKEjqx3qmMJVA65bJWeGzwCUnnGu8Oq3d9jgDLTasumidK5Mslsw7lEY5m3Jok5RxWXe~bsfZZS8X6OXf05a5Pt1as2itcGfNZNkFxFz7zggAjO0AMQEM9GHgw__&amp;Key-Pair-Id=K2J5W1U51CTOXP"></script>
+    
+    <script>
+      window.addEventListener("load", function(event) {
+        const links = document.querySelectorAll("a");
+        const buttons = document.querySelectorAll("button");
+
+        links.forEach(function(link) {
+          link.addEventListener("click", function(ev) {
+            ev.preventDefault();
+          });
+        });
+
+        buttons.forEach(function(button) {
+          button.addEventListener("click", function(ev) {
+            ev.preventDefault();
+          });
+        });
+      });
+    </script>
+  
+</body></html>
